@@ -1,4 +1,4 @@
-.hero-container {
+/* .hero-container {
     background-color: white;
     padding: 20px 0;
     position: fixed;
@@ -66,28 +66,30 @@
   .hero .login {
     font-size: 14px;
     margin-top: 5px;
-    color: rgb(85, 92, 226);
+    color:#1478A3;
     cursor: pointer;
+    padding-bottom: 6px;
+    font-weight: 500;
   }
-   
+   .bidder-login{
+    width:64px;
+    height:35px;
+    border-width: 2px;
+    border-color:#1478A3;
+    margin-top: 6px;
+   }
   .hero .register {
     font-size: 14px;
     margin-top: 5px;
-    background-color: rgb(8, 176, 232);
+    background-color: #1478A3;
     color: white;
-    border: none;
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition:0.3s ease;
   }
    
   .hero .register:hover {
     background-color: darkblue;
   }
-   /* ....media query..... */
-   @media(max-width:1200px){
-    .hero-container
-
-
-   }
+   */

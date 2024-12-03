@@ -1,0 +1,196 @@
+  
+  /*-----------------------------------*\
+    #SERVICE
+  \*-----------------------------------*/
+  
+  .group1 {
+    width: 1200px;
+    height: 322px;
+    margin-top: 129px;
+    margin-left: 40px;
+    background: url("../../assets/house-isolated-field.jpg") ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+
+  .top-group{
+    width: 1200px;
+    height: 322px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(20, 120, 163, 0.4) 35%, rgba(0, 0, 0, 0) 100%);
+  }
+  .p1{
+  width: 422px;
+  height: 132px;
+  margin-top: 59px;
+  margin-left: 65px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 40px;
+  color: #FFFFFF;
+  }
+  .p2{
+  width: 353px;
+  height: 40px;
+  margin-top: -28px;
+  margin-left: 65px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: left;
+  color: #FFFFFF;
+  }
+  .viewmd{
+  width: 201px;
+  height: 40px;
+  /* margin-top: -45px; */
+  margin-left: 65px;
+  background: #1478A3;
+  margin-top:-250px ;
+  color: #FFFFFF;
+  border: 0;
+  }
+  .eye-icon{
+    margin-right:5px;
+    margin-bottom: -5px;
+  }
+  
+  /*-----------------------------------*\
+    #PROPERTY
+  \*-----------------------------------*/
+  
+ .card-badge {
+    background: var(--black);
+    color: var(--white);
+    font-size: var(--fs-7);
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 4px 10px;
+  }
+
+  .property-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    overflow-x: auto;
+    margin-inline: -15px;
+    padding-inline: 15px;
+    padding-bottom: 60px;
+  }
+  
+  /* .property-list{
+    width: 1200px;
+    height: 382px;
+    top: 595px;
+    left: 120px;  
+    } */
+  /* .property-card {
+    border: 1px solid var(--alice-blue);
+    box-shadow: var(--shadow-2);
+  } */
+  
+  /* .property-card .card-banner {
+    position: relative;
+    aspect-ratio: 2 / 1.5;
+    overflow: hidden;
+  } */
+  
+  /* .property-card .card-banner a { height: 100%; } */
+  
+  /* .property-card .card-banner img {
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+  } */
+  
+  /* .property-card:hover .card-banner img { transform: scale(1.1); } */
+  
+  /* .property-card .card-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, hsla(0, 0%, 0%, 0.95), transparent 30%);
+    pointer-events: none;
+    z-index: 1;
+  } */
+  
+  /* .property-card .banner-actions {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    gap: 15px 10px;
+    z-index: 1;
+  } */
+  
+  /* .banner-actions-btn {
+    color: var(--white);
+    font-size: var(--fs-6);
+    line-height: 1;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+  } */
+  
+  
+  /* .property-card .card-content {
+    padding: 30px 15px 15px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
+  } */
+  
+  /* .card-price {
+    color: var(--orange-soda);
+    font-family: var(--ff-poppins);
+    font-size: var(--fs-5);
+    margin-bottom: 5px;
+  } */
+  
+  /* .card-price strong {
+    font-size: var(--fs-4);
+    font-weight: var(--fw-600);
+  } */
+  
+  /* .property-card .card-title {
+    --font-weight: var(--fw-600);
+    margin-bottom: 15px;
+  } */
+    
+  /* .property-card .card-text {
+    color: var(--cadet);
+    font-size: var(--fs-5);
+    line-height: 1.8;
+    margin-bottom: 25px;
+  } */
+  
+  /* .property-card .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 15px;
+  } */
+  
+  /* .property-card .card-item {
+    padding-block: 5px;
+    color: var(--cadet);
+    font-size: var(--fs-5);
+  } */
+  
+  /* .property-card .card-item:not(:last-child) {
+    padding-right: 15px;
+    border-right: 1px solid hsla(0, 0%, 0%, 0.2);
+    margin-right: 20px;
+  }   */
+  
+  /* .property-card .card-item span { margin-top: 5px; } */
+  
+    
+  
+  
+  

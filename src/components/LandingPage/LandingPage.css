@@ -1,294 +1,299 @@
-/* slider section */
-.slider {
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-    width: 100%; /* Make the slider responsive */
-  }
-  
-  .slide {
-    position: relative;
-    display: flex; /* Center the image */
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .slide-image {
-    width: 75%; /* Keep this responsive */
-    max-width: 100%; /* Ensure the image doesn't overflow the container */
-    border-radius: 10px;
-    margin: auto; /* Center the image within the slider */
-    transition: opacity 0.5s ease-in-out; /* Add a transition effect */
-  }
-  
-  .caption {
-    position:absolute;
-    bottom: 20%;
-    left: 15%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 200%;
-  }
-  
-  .dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  .dot {
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .dot.active {
-    background-color: #717171;
-  }
-  /* tittle section */
-  .Tittle{
-    text-align: left;
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 20px 0 10px;
+@import url("https://fonts.googleapis.com/css?family=Ribeye");
+
+/* /-----------------------------------\
+    #SECTION 1
+  \-----------------------------------/ */
+
+.group1 {
+  width: 1200px;
+  height: 322px;
+  margin-top: 129px;
+  margin-left: 40px;
+  background: url("../../assets/house-isolated-field.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
-/* items */
-.Items {
-    display: flex;
-    justify-content: space-between; /* Space between each item */
-    gap: 20px; /* Add spacing between each item */
-    width: 100%; /* Ensure the container takes full width */
-    flex-wrap: nowrap; /* Prevent wrapping */
-  }
-  
-  .Item {
-    display: flex;
-    flex-direction: column; /* Stacks the image and text vertically */
-    align-items: center; /* Center the content horizontally */
-    width: 23%; /* Adjust width so that four items fit in a row */
-    padding: 10px; /* Add some padding */
-    border: 1px solid #ddd; /* Optional: add a border */
-    border-radius: 8px; /* Optional: rounded corners */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: box shadow for a nice effect */
-    background-color: #f9f9f9; /* Optional: background color */
-  }
-  
-  .Item img {
-    width: 100%; /* Make the image fill the item’s width */
-    height: auto; /* Maintain the image’s aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
-  }
-  
-  .caption {
-    margin-top: 10px; /* Add some space between the image and text */
-    text-align: center; /* Center the text */
-  }
-  .Item .btn-trending .eyeimg{
-    height: 50px;
-    width: 20px;
-  }
-  
-  .caption p {
-    margin: 5px 0; /* Add vertical spacing between paragraphs */
-  }
-  
-  .Item .btn-trending {
-    padding: 8px 16px;
-    background-color: #0f0f0ffb; /* Button color */
-    color: #f9f9f9;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease;
-    display: inline-flex;
-    gap: 5px;
-    height: 50px;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-  /* Heading2 */
-  .Heading2{
-    text-align: left;
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 10px 0 20px;
+
+.top-group {
+  width: 1200px;
+  height: 322px;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 120, 163, 0.4) 35%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
-/* items 2 section  */
-.Items2 {
-    display: flex;
-    width: 100;
-    flex-wrap: nowrap; /* Allows items to wrap to the next line if necessary */
-    justify-content: space-around; /* Distribute items with some space between them */
-    gap: 20px; /* Add spacing between each item */
-  }
-  
-  .Item {
-    display: flex; /* Align content of each .Item horizontally */
-    align-items: center; /* Center items vertically */
-    width: 300px; /* Set a fixed width for each item */
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
-  }
-  
-  .Item img {
-    width: 100px; /* Adjust as needed */
-    height: auto;
-    margin-right: 10px; /* Space between image and text */
-    border-radius: 8px;
-  }
-  
-  .caption {
-    margin-top: 10px;
-    text-align: left; /* Align text to the left */
-  }
-  
-  .caption p {
-    margin: 5px 0;
-  }
-  
-  .btn {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  /*heading 3 section  */
-  .Heading3{
-    text-align: left;
-    color: black;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 5px 0 20px;
+.p1 {
+  width: 422px;
+  height: 132px;
+  margin-top: 59px;
+  margin-left: 65px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 40px;
+  color: #ffffff;
 }
-/* items 3 section */
-.Items3 {
-    display: flex;
-    width: 100%;
-    flex-wrap: nowrap; /* Allows items to wrap to the next line if necessary */
-    justify-content: space-around; /* Distribute items with some space between them */
-    gap: 20px; /* Add spacing between each item */
-  }
-  
-  .Item {
-    display: flex; /* Align content of each .Item horizontally */
-    align-items: center; /* Center items vertically */
-    width: 300px; /* Set a fixed width for each item */
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
-  }
-  
-  .Item img {
-    width: 100px; /* Adjust as needed */
-    height: auto;
-    margin-right: 10px; /* Space between image and text */
-    border-radius: 8px;
-  }
-  
-  .caption {
-    margin-top: 10px;
-    text-align: left; /* Align text to the left */
-  }
-  
-  .caption p {
-    margin: 5px 0;
-  }
-  
-  .btn {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  /* heading 4 section */
-  .Heading4{
-    text-align: left;
-    color: black;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 5px 0 20px;
-    /*margin-left: 45px;*/
+.p2 {
+  width: 353px;
+  height: 40px;
+  margin-top: -28px;
+  margin-left: 65px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
 }
-/* items 4 section */
-.Items4 {
-    display: flex;
-    justify-content: space-between; /* Even spacing between items */
-    width: 100%; /* Ensure the container takes up full width */
-    gap: 10px; /* Add smaller spacing between items */
-    flex-wrap: nowrap; /* Prevent wrapping to keep everything in one row */
-  }
-  
-  .Item {
-    display: flex;
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Center the content */
-    width: 22%; /* Make sure the item width fits in a single row */
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
-  }
-  
-  .Item img {
-    width: 100%; /* Ensure image takes the full width of the item */
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .caption {
-    margin-top: 10px;
-    text-align: center; /* Center the text */
-  }
-  
-  .caption p {
-    margin: 5px 0;
-  }
-  
-  .btn {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  
+.viewmd {
+  width: 201px;
+  height: 40px;
+  /* margin-top: -45px; */
+  margin-left: 65px;
+  background: #1478a3;
+  margin-top: -250px;
+  color: #ffffff;
+  border: 0;
+}
+.eye-icon {
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+
+/* /-----------------------------------\
+    #PROPERTY
+  \-----------------------------------/ */
+.property-list {
+  display: flex;
+  /* align-items: flex-start; */
+  /* margin-inline: -55px;
+    padding-inline: 15px;
+    padding-bottom: 60px; */
+}
+.property-container {
+  width: 1200px;
+  height: 382px;
+  /* margin-top: 95px;
+    margin-left: 120px; */
+  padding: 95px 120px 0px 120px;
+  /* background-color: #414042; */
+}
+.property-container h2 {
+  color: #000;
+  font-family: var(--Display-Small-Font, Roboto);
+  font-size: var(--Display-Small-Size, 36px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Display-Small-Line-Height, 44px); /* 122.222% */
+  letter-spacing: var(--Display-Medium-Tracking, 0px);
+}
+.card-banner {
+  width: 259px;
+  height: 194px;
+}
+.card-banner img {
+  width: 259px;
+  height: 194px;
+}
+.property-card {
+  width: 282px;
+  height: 318px;
+}
+.card-banner .card-badge {
+  width: 24px;
+}
+.card-content {
+  width: 260px;
+}
+.card-badge {
+  /* background: var(--black);
+    color: var(--white);
+    font-size: var(--fs-7); */
+  text-transform: uppercase;
+  position: absolute;
+  margin: -180px 0px 60px 210px;
+  fill: #fff;
+}
+.card-badge img {
+  position: absolute;
+  background: #1478a3;
+}
+.card-days {
+  color: var(--Red, #981212);
+
+  /* M3/body/small */
+  font-family: var(--Body-Small-Font, Roboto);
+  font-size: var(--Body-Small-Size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 133.333% */
+  letter-spacing: var(--Body-Small-Tracking, 0.4px);
+}
+.card-list {
+  margin-left: -40px;
+  list-style-type: none;
+  color: var(--Labels-Primary, var(--Labels-Primary, #000));
+
+  /* M3/body/small */
+  font-family: var(--Body-Small-Font, Roboto);
+  font-size: var(--Body-Small-Size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 133.333% */
+  letter-spacing: var(--Body-Small-Tracking, 0.4px);
+}
+.card-text {
+  color: var(--Labels-Primary, var(--Labels-Primary, #000));
+
+  /* M3/body/small */
+  font-family: var(--Body-Small-Font, Roboto);
+  font-size: var(--Body-Small-Size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 133.333% */
+  letter-spacing: var(--Body-Small-Tracking, 0.4px);
+}
+.card-item {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--Body-Small-Font, Roboto);
+  font-size: var(--Body-Small-Size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 133.333% */
+  letter-spacing: var(--Body-Small-Tracking, 0.4px);
+}
+.card-items {
+  color: var(--Labels-Primary, var(--Labels-Primary, #000));
+  font-family: var(--Body-Small-Font, Roboto);
+  font-size: var(--Body-Small-Size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 133.333% */
+  letter-spacing: var(--Body-Small-Tracking, 0.4px);
+}
+.more-details-btn {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--Onyx, #414042);
+  color: var(--Schemes-On-Primary, #fff);
+  text-align: center;
+  /* M3/label/small */
+  font-family: var(--Label-Small-Font, Roboto);
+  font-size: var(--Label-Small-Size, 11px);
+  font-style: normal;
+  font-weight: 300;
+  line-height: var(--Label-Small-Line-Height, 16px); /* 145.455% */
+  letter-spacing: var(--Label-Small-Tracking, 0.5px);
+  margin: -48px 0px 0px 140px;
+}
+.more-details-btn .eye-icon {
+  margin-right: 95px;
+  margin-bottom: -5px;
+}
+
+/* /-----------------------------------\
+    #SECTION 2
+  \-----------------------------------/ */
+.group2 {
+  width: 1200px;
+  height: 360px;
+  margin-top: 129px;
+  margin-left: 40px;
+  /* background: url("../../assets/hand-presenting-model-house.png") ; */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.top-group2 {
+  width: 1200px;
+  height: 360px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #1478a3 0%, #fff 100%);
+}
+.top-group2 .agl {
+  margin-top: 16px;
+  margin-left: 20px;
+}
+.top-group2 .p1 {
+  color: var(--Onyx, #414042);
+  text-align: center;
+  font-family: var(--Body-Large-Font, Roboto);
+  font-size: var(--Body-Large-Size, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Large-Line-Height, 24px); /* 150% */
+  letter-spacing: var(--Body-Large-Tracking, 0.5px);
+  /* margin-bottom: -90px; */
+  margin-top: -20px;
+  margin-left: 588px;
+  width: 209px;
+  height: 24px;
+}
+.top-group2 .p2 {
+  color: var(--Onyx, #414042);
+  text-align: center;
+
+  /* M3/body/small */
+  font-family: var(--Body-Small-Font, Roboto);
+  font-size: var(--Body-Small-Size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 133.333% */
+  letter-spacing: var(--Body-Small-Tracking, 0.4px);
+  margin-top: 180px;
+  margin-left: 20px;
+  width: 153px;
+  height: 16px;
+}
+.top-group2 .p3 {
+  color: var(--Onyx, #414042);
+  text-align: center;
+  font-family: var(--Body-Small-Font, Roboto);
+  font-size: var(--Body-Small-Size, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 133.333% */
+  letter-spacing: var(--Body-Small-Tracking, 0.4px);
+  /* margin: -16px 14px 255px 1054px;
+  margin-top: 20px; */
+  margin-bottom: 245px;
+  margin-top: -50px;
+  margin-left: 1000px;
+}
+.top-group2 .p4 {
+  transform: rotate(-5.601deg);
+  color: #fff;
+  text-align: center;
+  font-family: Ribeye;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Large-Line-Height, 54px); /* 37.5% */
+  letter-spacing: var(--Body-Large-Tracking, 0.5px);
+  margin-top: -497px;
+  margin-left: 115px;
+  width: 417px;
+  height: 154px;
+}
+.hand-model {
+  width: 425px;
+  height: 266px;
+  margin-left: 780px;
+  margin-top: -205px;
+  /* margin:21px 1px 0px 774px; */
+}
+.reg-btn {
+  background: var(--Primary-Bidhub, #1478a3);
+  width: 134px;
+  height: 40px;
+  margin-top: -140px;
+  margin-bottom: -470px;
+  margin-left: 630px;
+}

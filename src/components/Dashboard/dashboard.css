@@ -1,55 +1,66 @@
-.dashboard {
-    background-color: #FFFFFF;
-    padding: 20PX;
+.top-nav {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1400px;
+    height: 132px;
+    /* padding: 20PX;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 1000; */
 }
-
 .dashboard-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin-left: 15%;
-    margin-right: 20%;
+    justify-content: space-between;    
+    /* max-width: 1200px; */
+    margin-left: 5%;
+    margin-right: 60%;
 }
+.dashboard{
+ background-color: #E6E7e8;
+ overflow-y: hidden;
+ position: fixed;
 
+
+ 
+}
 .logo {
     width: 100px;
     height: 102px;
-    flex-shrink: 0;
+    margin-top: 18px;
+
 
 }
 
 .nation-name {
     color: #000;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     /* 60% */
     letter-spacing: 0.5px;
+    margin-left: 0px;
+    padding-top: 30px;
 }
 
 .date {
     color: #000;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
+    font-family:'Roboto';
     font-weight: 300;
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.5px;
+    padding-top: 40px;
 }
 
 .notification-container {
     width: 30px;
     height: 30px;
     flex-shrink: 0;
+    margin-top: -12%;
+    margin-left: 900px;
 }
 
 .superadmin {
@@ -60,46 +71,82 @@
     align-items: center;
     gap: 6px;
 }
+.superadmin-direction{
+    display: flex;
+    padding-left: 20px;
+    gap: 8px;
+    position:relative;
+}
+.shaddiepic{
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+}
 
 .superadmin-btn {
     /* display: block; */
     justify-content: flex-end;
-    align-items: center;
-    gap: 20px;
+    /* align-items: center; */
+    /* gap: 0px; */
+    /* width: Hug (171px)px; */
+    margin-top: -12%;
+    border-width: 2px;
+    width: 190px;
+    height: 58px;
+    border-radius: 100px;
+    margin-left: 20px;
+  
+  
+
 }
 
 .greetings {
     color: #000;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.admin-tittle {
+.admin-title {
     color: #000;
     font-family: serif;
-    font-size: 12px;
+     font-size: 14px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
+    padding-left: -20px;
 }
-
-.top-nav {
-    margin-right: 10px;
-}
-
 .home-dashboard {
     display: flex;
     height: 56px;
-    padding: 8px 12px;
+    padding: 8px 16px;
     align-items: center;
     gap: 12px;
     align-self: stretch;
+    margin-top: 15px;
     border-radius: 10px;
-    background: var(--Primary-Bidhub, #1478A3);
+    margin-left: 27px;
+    width: 200px;
+    background-color:rgba(20, 120, 163, 1);
 }
+.home-dashboard:hover {
+    background-color: aliceblue;
+
+}
+.home-dashboard:active {
+    background-color:rgba(20, 120, 163, 1);
+    /* Background color on click */
+  }
+  .home-dashboard:active .home-text {
+    color: white; /* Text color changes to white on click */
+  }
+  .drop-down div {
+    background-color: #fff;
+
+  }
+
 
 .homepic {
     display: flex;
@@ -118,6 +165,767 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    padding-top: 8px;
     /* 150% */
     letter-spacing: 0.5px;
+  
+}
+.admin-actions div{
+    background-color: #FFF;
+    font-family: 'Nunito Sans';
+    width: 200px;
+}
+.admin-actions div button{
+width: 200px;
+height: 175px;
+}
+.admin-action-pic{
+   padding-right: 12px;
+}
+.roles-box{
+    width: 200px;
+    height: 56px;
+    padding: 8px 12px 8px 12px;
+     gap: 12px; 
+    display: flex;
+    margin-top: 30px;
+    margin-left: 27px;
+    border-radius: 10px;
+}
+.roles-box:hover {
+    background-color: aliceblue;
+}
+.roles-box:active {
+    background-color:rgba(20, 120, 163, 1);
+    /* Background color on click */
+}
+.roles-box:active .roles-textt {
+    color: white; /* Text color changes to white on click */
+  }
+.roles-pic{
+    height: 24px;
+    width: 24px;
+}
+.roles-textt{
+font-family:'Roboto' ;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left; 
+    
+}
+.Users12-box{
+    width: 200px;
+    height: 56px;
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 27px;
+    border-radius: 10px;
+}
+.Users12-box:active {
+    background-color:rgba(20, 120, 163, 1);
+    /* Background color on click */
+}
+.Users12-box:hover {
+    background-color: aliceblue;
+}
+.users-box:active .users-text {
+    color: white; /* Text color changes to white on click */
+  }
+.users-pic{
+height: 24px;
+width: 24px;
+}
+.users-text{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left; 
+}
+.listings-box{
+    width: 200px;
+    height: 56px;
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 27px;
+    border-radius: 10px;
+}
+.listings-box:hover {
+    background-color: aliceblue;
+}
+.listings-box:active {
+    background-color:rgba(20, 120, 163, 1);
+    /* Background color on click */
+}
+.listings-pic{
+width: 24px;
+height: 24px;
+}
+.listings-text{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;  
+}
+.reports{
+    width: 200px;
+    height: 56px;
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 27px;  
+    border-radius: 10px;
+}
+.reports:hover {
+    background-color: aliceblue;
+}
+.reports-pic{
+width: 24px;
+height: 24px;
+}
+.reports-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;   
+}
+.settings-help{
+    display: flex;
+    gap: 30px;
+    margin-top: 150px;
+}
+.settings{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.settings-pic{
+width: 24px;
+height: 24px;
+}
+.settings-text{
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+
+}
+.help{
+    display: inline-flex;
+}
+.help-pic{
+    width: 24px;
+    height: 24px;
+}
+.help-text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left; 
+}
+/* Style for the main content: side-nav + cards-section */
+.main-content {
+    display: flex;
+    /* Align side-nav and cards-section side by side */
+    flex-direction: row;
+    width: 100%; /* Ensure it takes full width */
+    overflow-x: hidden; 
+    
+
+    
+}
+
+/* Adjust the side-nav styles to stay on the left */
+.side-nav {
+    background-color: #FFFFFF;
+    /* margin-right: 10px; */
+    width: 254px;
+    height: auto; /* Set to auto so it doesn't force a height */
+    background-color: #FFFFFF; 
+   
+}
+
+/* Cards section styling */
+.cards-section {
+ /* flex-grow: 1; /* Take the remaining width beside the side-nav */
+    background-color: #f8f8f8; /* Background color for visual separation */
+    padding: 20px;
+    margin-left: 20px; /* Add some margin for spacing from the side-nav */
+    background-color: #E6E7e8;;
+}
+
+/* Cards specific styling can be in cards.css, but you can add global styles here if needed */
+
+
+/* ----------------media query ------------------- */
+@media (max-width:1200px){
+    .logo{
+        width: 90px;
+        height: 90px;
+        margin-top: 12px;
+    }
+    .top-nav {
+        background-color: rgba(255, 255, 255, 1);
+        width: auto;
+        height: 132px;
+    }
+     .nation-name{
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 24px;
+     }
+     .date{
+        font-weight: 300;
+        line-height: 24px;
+        padding-top: 30;
+     }
+    .notification-container{
+        width: 30px;
+        height: 58px;
+        margin-top: -12%;
+        margin-left: 900px;
+    }
+    .dashboard-container{
+        display: flex;
+        margin-left: 4%;
+        margin-right: 60%;
+    }
+    .superadmin-btn{
+        margin-top: -12%;
+        height: 58px;
+        border-radius: 80px;
+        margin-left: 20px;
+        width:150px  
+    }
+    .home-dashboard{
+        height: 46px;
+        padding:6px 14px;
+        gap: 10px;
+        border-radius: 9px;
+        margin-left: 22px;
+        width: 150px;
+        margin-top: 12px;
+    }
+    .homepic {
+        display: flex;
+        width: 22px;
+        height: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text {
+        align-self: stretch;
+        color: var(--PMw, #FFF);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+        padding-top: 6px;
+        letter-spacing: 0.5px;
+    }
+    .roles-box{
+        width: 150px;
+        height: 46px;
+        padding: 6px 10px 6px 10px;
+         gap: 10px; 
+        display: flex;
+        margin-top: 28px;
+        margin-left: 25px;
+        border-radius: 8px;
+    }
+    .roles-pic{
+        height: 22px;
+        width: 22px;
+    }
+    .roles-textt{
+        font-family:'Roboto' ;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        text-align: left;  
+        }
+    .Users12-box{
+        width: 150px;
+        height: 46px;
+        padding: 6px 10px 6px 10px;
+        gap: 10px;
+        display: flex;
+        margin-top: 28px;
+        margin-left: 25px;
+        border-radius: 8px;
+    }
+    .users-text{
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        text-align: left; 
+        }
+        .users-pic{
+            height: 22px;
+            width: 22px;
+        }
+        .listings-box{
+            width: 150px;
+            height: 46px;
+            padding: 6px 10px 6px 10px;
+            gap: 10px;
+            display: flex;
+            margin-top: 28px;
+            margin-left: 25px;
+            border-radius: 8px;
+        }
+        .listings-pic{
+            width: 22px;
+            height: 22px;
+        }
+        .listings-text{
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0.5px;
+            text-align: left;  
+        }
+        .reports{
+            width: 150px;
+            height: 46px;
+            padding: 6px 10px 6px 10px;
+            gap: 10px;
+            display: flex;
+            margin-top: 28px;
+            margin-left: 25px;  
+            border-radius: 8px;
+        }
+        .reports-pic{
+            width: 22px;
+            height: 22px;
+            }
+            .reports-text{
+                font-family: 'Roboto';
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                letter-spacing: 0.5px;
+                text-align: left;   
+            }
+            .settings-pic{
+                width: 22px;
+                height: 22px;
+            }
+            .settings-text{
+            font-family:'Inter';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 23px;
+            text-align: left;  
+            }
+            .help-pic{
+                width: 22px;
+                height: 22px;
+            }
+            .help-text{
+                font-family: Inter;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 23px;
+                text-align: left; 
+            }
+            .settings-help{
+                display: flex;
+                gap: 30px;
+                margin-top: 525px;
+            }
+         
+            .side-nav {
+                background-color: #FFFFFF;
+                /* margin-right: 10px; */
+                width: 200px;
+                height: 900px; /* Set to auto so it doesn't force a height */
+                background-color: #FFFFFF;  
+            }
+}
+@media (max-width:850px){
+     .top-nav {
+        background-color: rgba(255, 255, 255, 1);
+        width: auto;
+        height: 132px;
+    }
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    .nation-name{
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 16px;
+    }
+    .date{
+        font-weight:200 ;
+        line-height: 16px;
+        padding-top: 20px;
+    }
+    .notification-container{
+        width: 30px;
+        height: 30px;
+        margin-top: -10px;
+        margin-left: 500px;
+    }
+    .dashboard-container{
+        display: flex;
+        margin-right: 75%;
+    }
+    .superadmin-btn{
+        margin-top: -8%;
+        height: 30px;
+        border-radius: 60px;
+        margin-left: 10px;
+        width:100px  
+    }
+    .home-dashboard{
+        height: 36px;
+        padding:4px 12px;
+        gap: 8px;
+        border-radius: 8px;
+        margin-left: 20px;
+        width: 120px;
+        margin-top: 9px;
+    }
+    .homepic {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text {
+        align-self: stretch;
+        color: var(--PMw, #FFF);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 20px;
+        padding-top: 4px;
+        letter-spacing: 0.5px;
+    }
+    .roles-box{
+        width: 100px;
+        height: 36px;
+        padding: 4px 8px 4px 8px;
+         gap: 8px; 
+        display: flex;
+        margin-top: 26px;
+        margin-left: 23px;
+        border-radius: 6px;
+    }
+    .roles-pic{
+        height: 20px;
+        width: 20px;
+    }
+    .roles-textt{
+        font-family:'Roboto' ;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        text-align: left;  
+        }
+    .Users12-box{
+        width: 100px;
+        height: 36px;
+        padding: 4px 8px 4px 8px;
+        gap: 8px;
+        display: flex;
+        margin-top: 26px;
+        margin-left: 23px;
+        border-radius: 6px;
+    }
+    .users-text{
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        text-align: left; 
+        }
+        .users-pic{
+            height: 20px;
+            width: 20px;
+        }
+        .listings-box{
+            width: 100px;
+            height: 36px;
+            padding: 4px 8px 4px 8px;
+            gap: 10px;
+            display: flex;
+            margin-top: 26px;
+            margin-left: 23px;
+            border-radius: 6px;
+        }
+        .listings-pic{
+            width: 20px;
+            height: 20px;
+          }
+         .listings-text{
+             font-family: 'Roboto';
+             font-size: 12px;
+             font-weight: 200;
+             line-height: 20px;
+             letter-spacing: 0.5px;
+             text-align: left;  
+         }
+         .reports{
+            width: 100px;
+            height: 36px;
+            padding: 4px 8px 4px 8px;
+            gap: 8px;
+            display: flex;
+            margin-top: 28px;
+            margin-left: 23px;  
+            border-radius: 6px;
+        }
+        .reports-pic{
+            width: 20px;
+            height: 20px;
+            }
+            .reports-text{
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+            text-align: left;   
+            }
+            .settings-pic{
+                width: 20px;
+                height: 20px;
+            }
+            .settings-text{
+                font-family:'Inter';
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 21px;
+                text-align: left;  
+                }
+                .help-pic{
+                    width: 20px;
+                    height: 20px;
+                }
+                .help-text{
+                    font-family: Inter;
+                    font-size: 10px;
+                    font-weight: 300;
+                    line-height: 21px;
+                    text-align: left; 
+                }
+                .settings-help{
+                    display: flex;
+                    gap: 20px;
+                    margin-top: 560px;
+                }
+                .side-nav {
+                    background-color: #FFFFFF;
+                    /* margin-right: 10px; */
+                    width: 150px;
+                    height: 900px; /* Set to auto so it doesn't force a height */
+                    background-color: #FFFFFF;  
+                }
+                
+}
+@media (max-width:480px){
+    .logo{
+        width: 30px;
+        height: 30px
+    }
+    .nation-name{
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 8px; 
+     }
+     .date{
+        font-weight: 100;
+        line-height: 4px;
+        padding-top: 10px;
+        font-size: 4px;
+     }
+     .dashboard-container{
+        display: flex;
+        margin-left: 2%;
+        margin-right: 83%;
+     }
+     .notification-container{
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        margin-right: 117%;
+    }
+    .superadmin-btn{
+       
+        height: 25px;
+        border-radius: 40px;
+        margin-left: 5px;
+        width:50px   
+    }
+    .home-dashboard{
+        height: 26px;
+        padding:2px 10px;
+        gap: 6px;
+        border-radius: 7px;
+        margin-left: 18px;
+        width: 100px;
+        margin-top: 5px;
+    }
+    .homepic {
+        display: flex;
+        width: 18px;
+        height: 18px;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text {
+        align-self: stretch;
+        color: var(--PMw, #FFF);
+        font-family: Roboto;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 18px;
+        padding-top: 2px;
+        letter-spacing: 0.5px;
+    }
+    .roles-box{
+        width: 100px;
+        height: 26px;
+        padding: 2px 6px 2px 6px;
+         gap: 6px; 
+        display: flex;
+        margin-top: 24px;
+        margin-left: 21px;
+        border-radius: 4px;
+    }
+    
+    .roles-pic{
+        height: 18px;
+        width: 18px;
+    }
+    .roles-textt{
+        font-family:'Roboto' ;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: left;  
+        }
+    .Users12-box{
+        width: 100px;
+        height: 26px;
+        padding: 2px 6px 2px 6px;
+        gap: 6px;
+        display: flex;
+        margin-top: 24px;
+        margin-left: 21px;
+        border-radius: 4px;
+    }
+    .users-text{
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 100;
+        font-style: normal;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        }
+        .users-pic{
+            height: 18px;
+            width: 18px;
+        }
+        .listings-box{
+            width: 100px;
+            height: 26px;
+            padding: 2px 6px 2px 6px;
+            gap: 8px;
+            display: flex;
+            margin-top: 24px;
+            margin-left: 21px;
+            border-radius: 4px;
+        }
+        .listings-pic{
+            width: 18px;
+            height: 18px;
+        }
+        .listings-text{
+            font-family: 'Roboto';
+            font-size: 12px;
+            font-weight: 100;
+            line-height: 18px;
+            letter-spacing: 0.5px;
+            text-align: left;  
+        } 
+        .reports{
+            width: 100px;
+            height: 26px;
+            padding: 2px 6px 2px 6px;
+            gap: 6px;
+            display: flex;
+            margin-top: 24px;
+            margin-left: 21px;  
+            border-radius: 4px;
+        }
+        .reports-pic{
+            width: 18px;
+            height: 18px;
+            }
+        .reports-text{
+            font-family: 'Roboto';
+            font-size: 12px;
+            font-weight: 100;
+            line-height: 18px;
+            letter-spacing: 0.5px;
+            text-align: left;   
+                }
+         .settings-pic{
+                    width: 18px;
+                    height: 18px;
+                    }
+        .settings-text{
+            font-family:'Inter';
+            font-size: 12px;
+            font-weight: 200;
+            line-height: 19px;
+            text-align: left;  
+            }
+            .help-pic{
+                width: 18px;
+                height: 18px;
+            }
+            .help-text{
+                font-family: Inter;
+                font-size: 12px;
+                font-weight: 200;
+                line-height: 19px;
+                text-align: left; 
+            }
+            .settings-help{
+                display: flex;
+                gap: 10px;
+                margin-top: 300px;
+            }
+
 }

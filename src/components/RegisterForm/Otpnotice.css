@@ -1,0 +1,79 @@
+/* Popup container */
+.mainn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-radius: 20px;
+  border: 1px solid var(--Grey, #DDE2E5);
+  background: #FFF;
+  width: 850px;
+  height: 590px;
+  padding: 40px;
+ 
+  /* Positioning to center it in the viewport */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Shadow and higher stacking context */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001; /* Make sure it's above everything */
+}
+
+/* Popup title */
+.mainn h3 {
+  color: var(--Black-5, #2B2F32);
+  font-family: var(--Headline-Medium-Font, Roboto);
+  font-size: var(--Headline-Medium-Size, 26px);
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/* Frame or image container */
+.main-frame {
+  width: 419.07px;
+  height: 450.06px;
+}
+
+/* Background image or content */
+.backgroundC {
+  width: 365.05px;
+  height: 439.47px;
+  flex-shrink: 0;
+}
+
+/* Button for verifying email */
+.verify-email {
+  background-color: #1478A3;
+  width: 180px;
+  padding: 17px 16px;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+/* Popup overlay (dim the background) */
+.popup-overlay {
+  position: fixed;
+  overflow: hidden; /* Prevent any scrolling inside the overlay */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 1000; /* Just below the popup content */
+}
+
+/* Close button styling */
+.close-popup {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff5e57;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

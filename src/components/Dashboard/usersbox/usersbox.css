@@ -1,0 +1,28 @@
+.usersbox{
+height: 820px;
+background-color:#fff;
+margin-left: 40px;
+
+width: 100%;
+}
+@media (max-width:1200px){
+    .usersbox{
+        /* min-width:1000px ; */
+       max-width: 1200px;
+  
+      
+        
+        }
+}
+@media (max-width:850px){
+    .usersbox{
+       max-width: 850px;
+
+        }
+}
+@media (max-width:468px){
+    .usersbox{
+max-width: 468px;
+
+}
+}

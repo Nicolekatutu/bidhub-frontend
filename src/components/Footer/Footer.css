@@ -244,3 +244,70 @@ font-weight: 400;
 line-height: normal;
 }
 /* end of newsletter */
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .footerItems {
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .footerItem1, .company-footer, .legal, .qlinks, .footerForm {
+    flex: 1 1 45%;
+    min-width: 150px;
+  }
+
+  .footerForm {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .finput, .fbutton {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerItems {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footerItem1, .company-footer, .legal, .qlinks, .footerForm {
+    flex: 1 1 100%;
+  }
+
+  .footerHeader {
+    font-size: 16px;
+  }
+
+  .footerItems ul li {
+    font-size: 14px;
+  }
+
+  .footerForm h2, .footerForm h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .footerItems ul li {
+    font-size: 14px;
+  }
+
+  .finput {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .fbutton {
+    width: 100%;
+    margin-top: 5px;
+  }
+}

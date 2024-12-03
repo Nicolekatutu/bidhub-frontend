@@ -50,14 +50,11 @@ const Items = () => {
   return (
     <div>
        
-
         <Suspense fallback={<div>Loading please wait...</div>}>
         <LazyAuctionItems title='Trending Items' items={auctionItems} />
-        </Suspense>
-        
+        </Suspense>     
 
         
-
     </div>
   )
 }

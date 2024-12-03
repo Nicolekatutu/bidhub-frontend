@@ -1,0 +1,98 @@
+
+.permission-bar{
+width: 1085px;
+height: 1085px;
+top: 369px;
+left: 291px;
+background-color: white;
+margin-top: 15px;
+margin-left: 30px;
+border-radius: 20px;
+}
+.roles-heading{
+    font-size: 20px;
+    margin-left: 130px;
+    padding-top: 30px;
+}
+.roles-text{
+margin-left: 130px;
+padding-top: 10px;
+}
+.users-btn{
+    height: 40px;
+    width: 108px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-right: 20px;
+    border-color: black;
+    border-width: 2px;
+}
+.buttons-position{
+    display: flex;
+    gap: 305px;
+}
+.assign-roles-btn{
+    height: 40px;
+    width: 108px;
+    border-radius: 10px;
+    background-color: #1478A3;
+}
+.assign-role-text{
+    color: #fff;
+}
+.admin-access{
+width: 900px;
+height: 212px;
+border-width: 2px;
+border-color:rgba(0, 0, 0, 0.315);
+margin-left: 85px;
+margin-top: 20px;
+border-radius: 20px;
+}
+.auctioneer-manager2{
+    width: 900px;
+    height: 212px;
+    border-width: 2px;
+    border-color:rgba(0, 0, 0, 0.315);
+    margin-left: 85px;
+    margin-top: 20px;
+    border-radius: 20px; 
+}
+.auctions-manager{
+    width: 900px;
+    height: 212px;
+    border-width: 2px;
+    border-color:rgba(0, 0, 0, 0.315);
+    margin-left: 85px;
+    margin-top: 20px;
+    border-radius: 20px; 
+}
+.advert-supervisor{
+    width: 900px;
+    height: 212px;
+    border-width: 2px;
+    border-color:rgba(0, 0, 0, 0.315);
+    margin-left: 85px;
+    margin-top: 20px;
+    border-radius: 20px; 
+}
+.admin-heading{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 10px;
+    opacity: 0.5;
+}
+.add-admin{
+     font-weight: 600;
+     padding-top: 20px;
+     padding-left:50px ;
+}
+.admin-text2{
+    padding-left: 50px;
+    text-decoration: underline;
+    text-decoration-color:rgba(0, 0, 0, 0.315) ;
+}
+.admin-direction{
+    display: flex;
+}

@@ -9,14 +9,12 @@ const HouseDescription = () => {
     <div>
     <Navbar />
     <Nav2/>
-    <div className='container'>
+    <div className='flex items-center justify-center min-h-screen px-10'>
 
      <House120/>
       
-      {/* <House120/> */}
       </div>
       <Footer/>
-
     </div>
   )
 }

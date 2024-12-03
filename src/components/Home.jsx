@@ -32,7 +32,6 @@ const Home = () => {
       <Items3/>
       {/* <Heading4/> */}
       <Items4/>
-      
       {/* <House120/> */}
       </div>
       <Footer/>
